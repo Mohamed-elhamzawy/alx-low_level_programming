@@ -3,14 +3,14 @@
 /**
  * main - Prints 10 numbers by putchar
  *
- * Return: Always 0.
+ * Reurn 0.
  */
 int main(void)
 {
 	int a;
 
 	for (a = 0; a <= 10; a++)
-		putchar((a % 10) + '0');
+		putchar(a % 10);
 	putchar('\n');
 	return (0);
 }
