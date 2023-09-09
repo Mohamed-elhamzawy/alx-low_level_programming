@@ -4,7 +4,6 @@
  * main - Prints 10 numbers by putchar
  *
  * Return: Always 0.
-
 */
 int main(void)
 {
