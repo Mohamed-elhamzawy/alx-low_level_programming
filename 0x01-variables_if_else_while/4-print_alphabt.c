@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main -print upper and lower alpha
+ * main -print all apha except two alpha
  *
  * Return: 0
 */
