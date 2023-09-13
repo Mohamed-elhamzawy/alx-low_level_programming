@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print the small  alphabetics
- *            from a - z
+ * print_alphabet - we use this function to print lower alphabe
+ * from a - z
  */
 
 void print_alphabet(void)
