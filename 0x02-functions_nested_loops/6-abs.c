@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_sign - funtion to chech the signs
+ * _abs - funtion to change the sign of number
  *
- * @n: takes integer type input
+ * @n: takes -ve number
  *
- * Return: return 1 if its +ve and 0 if zero and -1 if its -ve
+ * Return: return absolute numb
  */
 
 int _abs(int n)
