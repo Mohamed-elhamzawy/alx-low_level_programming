@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - print the small  alphabetics
+ * print the small  alphabetics
  *            from a - z
  */
 
