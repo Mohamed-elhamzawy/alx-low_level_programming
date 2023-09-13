@@ -8,7 +8,7 @@
  * Return: return 1 if its +ve and 0 if zero and -1 if its -ve
  */
 
-int _abs(int)
+int _abs(int n)
 {
 	if (n < 0)
 		n = (-1) * n;
