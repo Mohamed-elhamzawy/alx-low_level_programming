@@ -20,10 +20,9 @@ int print_last_digit(int n)
 		return (numb);
 	}
 	else
-	{	
+	{
 		numb = n % 10;
 		_putchar('0' + numb);
 		return (numb);
 	}
-}
-		
+}		
