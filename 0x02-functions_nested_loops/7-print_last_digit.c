@@ -25,4 +25,4 @@ int print_last_digit(int n)
 		_putchar('0' + numb);
 		return (numb);
 	}
-}	
+}
