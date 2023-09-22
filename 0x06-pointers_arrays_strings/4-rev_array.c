@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * *reverse_array - function to reverse  strings
+ * reverse_array - function to reverse  strings
  *
  * @a: an array of integers
  * @n: the number of elements to swap
+ *
  */
 
 void reverse_array(int *a, int n)
@@ -13,7 +14,7 @@ void reverse_array(int *a, int n)
 	int j;
 	int temp;
 
-	for (i = 0; j < (n - 1); i < j; i++; j++)
+	for (i = 0; j = (n - 1); i < j; i++; j++)
 	{
 		temp = a[i];
 		a[i] = a[j];
