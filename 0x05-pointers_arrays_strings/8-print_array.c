@@ -21,7 +21,7 @@ void print_array(int *a, int n)
 		else
 		{
 			_putchar(a[i] + '0');
-		       	_putchar(32);
+			_putchar(32);
 			_putchar(44);
 		}
 	}
