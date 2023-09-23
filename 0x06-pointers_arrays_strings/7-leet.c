@@ -4,12 +4,14 @@
  * *leet - function to encode the characters
  *
  * @s: string
+ *
+ * Return: return the encoded string
  */
 
 char *leet(char *s)
 {
 	int i, j;
-	char a[] ={'a' 'A' 'e' 'E' 'o' 'O' 't' 'T' 'l' 'L'};
+	char a[] ={aAeEoOtTlL";
 	char b[] = "4433007711";
 
 	for (i = 0; *(s + i); i++)
