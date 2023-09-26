@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * _strst _ function
+ * _strstr - function
  *
- * @haystac: string
+ * @haystack: string
  * @needle: the first occurrence of the substring
  *
- * Return: a pointer 
+ * Return: pointer
  */
+
 char *_strstr(char *haystack, char *needle)
 {
 	 int i = 0, j = 0;
