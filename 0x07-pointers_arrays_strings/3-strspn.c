@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strchr - function to print the length of substring
+ * *_strspn - function to print the length of substring
  *
  * @s: string
  * @accept: string
@@ -25,7 +25,7 @@ unsigned int _strspn(char *s, char *accept)
 					z++;
 			}
 		}
-		else 
+		else
 			return (z);
 	}
 	return (z);
