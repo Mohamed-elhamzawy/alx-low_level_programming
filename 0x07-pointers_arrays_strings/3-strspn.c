@@ -13,7 +13,7 @@ unsigned int _strspn(char *s, char *accept)
 {
 	int i;
 	int j;
-	int z;
+	int z = 0;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
