@@ -4,15 +4,13 @@
  * *_strchr - function to search about character in a string
  *
  * @s: string
- * @c: charcater 
+ * @c: charcater
  *
  * Return: the position of this char
  */
 
 char *_strchr(char *s, char c)
 {
-	int i;
-
 	while (*s)
 	{
 		if (*s == c)
@@ -22,7 +20,7 @@ char *_strchr(char *s, char c)
 		else
 			s++;
 	}
-	if (c =='\0')
+	if (c == '\0')
 		return (s);
 	return (NULL);
 }
