@@ -10,8 +10,8 @@
 void print_diagsums(int *a, int size)
 {
 	int i;
-	unsigned int s1 = 0;
-	unsigned int s2 = 0;
+	int s1 = 0;
+	int s2 = 0;
 
 	for (i = 0; i < size; i++)
 	{
@@ -19,6 +19,6 @@ void print_diagsums(int *a, int size)
 		s2 += a[size - i - 1];
 		a += size;
 	}
-	printf("%lu, ", s1);
-	printf("%lu\n", s2);
+	printf("%d, ", s1);
+	printf("%d\n", s2);
 }
