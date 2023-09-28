@@ -11,7 +11,6 @@ int main(void)
 	unsigned long int sum = 0;
 	int i, mul, num;
 
-	printf("enter 3 or 5 for multiplis of this number");
 	scanf("%d", &num);
 	if (num == 3 || num == 5)
 	{
