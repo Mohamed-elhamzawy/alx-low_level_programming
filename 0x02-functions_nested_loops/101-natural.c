@@ -11,20 +11,13 @@ int main(void)
 	unsigned long int sum = 0;
 	int i, mul, num;
 
-	scanf("%d", &num);
-	if (num == 3 || num == 5)
+	for (num = 0; num < 1024; num++)
 	{
-		for (i = 1; i < 342; i++)
+		if (num % 3 == 0 || num % 5 == 0)
 		{
-			mul = num * i;
-			if (mul < 1024)
-			{
-				sum += mul;
-			}
-			else
-				break;
+			sum += num;
 		}
-		printf("the sum of multiplies of %d below 1024 is %lu\n", num, sum);
 	}
+	printf("the sum of multiples is  %lu\n", sum);
 	return (0);
 }
