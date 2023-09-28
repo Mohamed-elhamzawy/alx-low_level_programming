@@ -32,7 +32,7 @@ void print_times_table(int n)
 				}
 				if (mult >= 100)
 				{
-					_putchar((mult / 100)+ '0');
+					_putchar((mult / 100) + '0');
 					r = mult / 10;
 					_putchar((r % 10) + '0');
 				}
