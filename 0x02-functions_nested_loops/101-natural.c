@@ -9,7 +9,7 @@
 int main(void)
 {
 	unsigned long int sum = 0;
-	int i, mul, num;
+	int num;
 
 	for (num = 0; num < 1024; num++)
 	{
