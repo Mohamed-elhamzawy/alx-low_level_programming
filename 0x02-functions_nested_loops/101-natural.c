@@ -18,6 +18,6 @@ int main(void)
 			sum += num;
 		}
 	}
-	printf("the sum of multiples is  %lu\n", sum);
+	printf("%lu\n", sum);
 	return (0);
 }
