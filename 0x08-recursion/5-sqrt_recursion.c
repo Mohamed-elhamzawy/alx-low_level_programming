@@ -30,6 +30,5 @@ int sqaure(int n, int i)
 		return (i);
 	else if (i * i > n)
 		return (-1);
-	else
-		return (sqaure(n, i + 1));
+	return (sqaure(n, i + 1));
 }
