@@ -19,5 +19,4 @@ int _strlen_recursion(char *s)
 	}
 	else
 		return (c);
-	_putchar('\0');
 }
